@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+
+  backend:
+    build: ./services/backend
+    ports:
+      - 5000:5000
+    volumes:
+      - ./services/backend:/app
+    command: uvicorn src.main:app --proxy-headers --reload --host 0.0.0.0 --port 5000
+    networks:
+      - localhost
+
+  frontend:
+    build: ./services/frontend
+    volumes:
+      - './services/frontend:/app'
+    ports:
+      - 3000:3000
+    networks:
+      - localhost
+
+  nginx:
+    image: nginx:latest
+    ports:
+      - "80:80"
+    volumes:
+      - ./services/nginx/default.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - frontend
+      - backend
+    networks:
+      - localhost
+
+networks:
+  localhost:
+    driver: bridge
