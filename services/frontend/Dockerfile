@@ -15,7 +15,7 @@ WORKDIR /app
 COPY ./package.json /app/package.json
 COPY --from=nuxtBuild /nuxtBuild/.output /app/.output
 
-ENV NUXT_PORT=3000
-ENV NUXT_HOST=0.0.0.0
+ENV HOST=0.0.0.0
+ENV PORT=3000
 
-ENTRYPOINT ["yarn" ,"start"]
+ENTRYPOINT ["node", ".output/server/index.mjs"]
