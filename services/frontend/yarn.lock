@@ -350,12 +350,12 @@
   resolved "https://registry.yarnpkg.com/@nuxt/devalue/-/devalue-2.0.0.tgz#c7bd7e9a516514e612d5d2e511ffc399e0eac322"
   integrity sha512-YBI/6o2EBz02tdEJRBK8xkt3zvOFOWlLBf7WKYGBsSYSRtjjgrqPe2skp6VLLmKx5WbHHDNcW+6oACaurxGzeA==
 
-"@nuxt/kit@npm:@nuxt/kit-edge@3.0.0-27479058.e4956c5":
-  version "3.0.0-27479058.e4956c5"
-  resolved "https://registry.yarnpkg.com/@nuxt/kit-edge/-/kit-edge-3.0.0-27479058.e4956c5.tgz#adc699fa7818f33f49f4c993e24343453668bbe9"
-  integrity sha512-EyjiqU8L/bC3QAsstcJm+MV6s40Ih78CHZ4XFMAFvpIZZYBpjnGJ70IsazOio+42Z50rntvA9t8gSsMxxSxeSA==
+"@nuxt/kit@npm:@nuxt/kit-edge@3.0.0-27480376.fdd38f9":
+  version "3.0.0-27480376.fdd38f9"
+  resolved "https://registry.yarnpkg.com/@nuxt/kit-edge/-/kit-edge-3.0.0-27480376.fdd38f9.tgz#1363a118549ba04b3d9231bfe3de407add386d9f"
+  integrity sha512-WGvYVg9i8iN35fNOA8zPKgymB61+NeugLxHs3QC/oAHZVObYvlDvpEdTeGNtNtrXGuvxm9ShxopQWpG30M+VDQ==
   dependencies:
-    "@nuxt/schema" "npm:@nuxt/schema-edge@3.0.0-27479058.e4956c5"
+    "@nuxt/schema" "npm:@nuxt/schema-edge@3.0.0-27480376.fdd38f9"
     c12 "^0.2.4"
     consola "^2.15.3"
     defu "^6.0.0"
@@ -370,19 +370,19 @@
     pkg-types "^0.3.2"
     scule "^0.2.1"
     semver "^7.3.5"
-    unctx "^1.1.3"
+    unctx "^1.1.4"
     unimport "^0.1.3"
-    untyped "^0.4.3"
+    untyped "^0.4.4"
 
-"@nuxt/nitro@npm:@nuxt/nitro-edge@3.0.0-27479058.e4956c5":
-  version "3.0.0-27479058.e4956c5"
-  resolved "https://registry.yarnpkg.com/@nuxt/nitro-edge/-/nitro-edge-3.0.0-27479058.e4956c5.tgz#d4c3fd691ccb4453cbc15942f95233c15b7c0a49"
-  integrity sha512-mhxnsXO2t79dDWR6lEd0lobW4vmhcVBZippw4wnRUjhFc8FfslMFboQRySD9rD+PevvUW0UvSNsMgskYEoVVjA==
+"@nuxt/nitro@npm:@nuxt/nitro-edge@3.0.0-27480376.fdd38f9":
+  version "3.0.0-27480376.fdd38f9"
+  resolved "https://registry.yarnpkg.com/@nuxt/nitro-edge/-/nitro-edge-3.0.0-27480376.fdd38f9.tgz#ab0bb1994ce951b3d06c3878f308219344951160"
+  integrity sha512-tbt+/Lv5gu9TmSWmdiZk4dLwJ+X/uWiOzfXNPAZ1EHgxhKsbyB+nJsZsf8CiXo2aH/+ejbHdZVzUokWS5Rpo1w==
   dependencies:
     "@cloudflare/kv-asset-handler" "^0.2.0"
     "@netlify/functions" "^1.0.0"
     "@nuxt/devalue" "^2.0.0"
-    "@nuxt/kit" "npm:@nuxt/kit-edge@3.0.0-27479058.e4956c5"
+    "@nuxt/kit" "npm:@nuxt/kit-edge@3.0.0-27480376.fdd38f9"
     "@nuxt/ui-templates" "npm:@nuxt/ui-templates-edge@latest"
     "@rollup/plugin-alias" "^3.1.9"
     "@rollup/plugin-commonjs" "^21.0.3"
@@ -432,16 +432,16 @@
     serve-static "^1.15.0"
     std-env "^3.0.1"
     table "^6.8.0"
-    ufo "^0.8.1"
+    ufo "^0.8.3"
     unenv "^0.4.3"
     unstorage "^0.3.3"
     vue-bundle-renderer "^0.3.5"
     vue-server-renderer "^2.6.14"
 
-"@nuxt/schema@npm:@nuxt/schema-edge@3.0.0-27479058.e4956c5":
-  version "3.0.0-27479058.e4956c5"
-  resolved "https://registry.yarnpkg.com/@nuxt/schema-edge/-/schema-edge-3.0.0-27479058.e4956c5.tgz#69dbff1abc1db6dce7829a69edae19ea11e2f2d2"
-  integrity sha512-JyJU7/yVMO23RWj4SsPDiAe//F6eUPRLdY7B/d2lOzBNnRhpzIotFTA0AaZuIM0n7cNJMMD4b8POds7Veo9G5w==
+"@nuxt/schema@npm:@nuxt/schema-edge@3.0.0-27480376.fdd38f9":
+  version "3.0.0-27480376.fdd38f9"
+  resolved "https://registry.yarnpkg.com/@nuxt/schema-edge/-/schema-edge-3.0.0-27480376.fdd38f9.tgz#aaf9fab59158750bc7c5f71b1c2542075711f404"
+  integrity sha512-hnWMkGkIbe5KH//n9ChFGoRc2lSK7NSvvtbXqCR5Ssw1dk5zWGpVd8WRoG6QHOZB0YfTedxX/0QcJ5YApZ1JnA==
   dependencies:
     c12 "^0.2.4"
     create-require "^1.1.1"
@@ -451,7 +451,7 @@
     postcss-import-resolver "^2.0.0"
     scule "^0.2.1"
     std-env "^3.0.1"
-    ufo "^0.8.1"
+    ufo "^0.8.3"
     unimport "^0.1.3"
 
 "@nuxt/ui-templates@npm:@nuxt/ui-templates-edge@latest":
@@ -459,17 +459,17 @@
   resolved "https://registry.yarnpkg.com/@nuxt/ui-templates-edge/-/ui-templates-edge-0.0.0-27479051.598a8a0.tgz#8adcb99a881130c8f6ad4d53ef7b487f7aa1ca99"
   integrity sha512-oGL9LYhWqZTYEkxIc+vB9joI+dfiYjx4vlMH6RyCDg1wAuJBLn+xgC0efS1rUFtnag9qE9fx+HQ1SbKR6Hpt1Q==
 
-"@nuxt/vite-builder@npm:@nuxt/vite-builder-edge@3.0.0-27479058.e4956c5":
-  version "3.0.0-27479058.e4956c5"
-  resolved "https://registry.yarnpkg.com/@nuxt/vite-builder-edge/-/vite-builder-edge-3.0.0-27479058.e4956c5.tgz#d193e75723570a34a12f06433ca616144ef93fe5"
-  integrity sha512-bulWswH9xv99of82gTwW0AUw0AaOEaOnVvrLiAujJqYQ13fdznwtHJ7u29G8zBOwS6+zo+8f0QW9RHCoWZuAFg==
+"@nuxt/vite-builder@npm:@nuxt/vite-builder-edge@3.0.0-27480376.fdd38f9":
+  version "3.0.0-27480376.fdd38f9"
+  resolved "https://registry.yarnpkg.com/@nuxt/vite-builder-edge/-/vite-builder-edge-3.0.0-27480376.fdd38f9.tgz#7b68975099965546fcfd8407893ba3451fd79e39"
+  integrity sha512-GfYdqivPlChLUEl3M531jvMDulEg1Zk4meZZGwB4yi4fAFuAvGDKq0Y4IBKMxaabahxjIcFBYXeNjJy33lESuA==
   dependencies:
-    "@nuxt/kit" "npm:@nuxt/kit-edge@3.0.0-27479058.e4956c5"
+    "@nuxt/kit" "npm:@nuxt/kit-edge@3.0.0-27480376.fdd38f9"
     "@vitejs/plugin-vue" "^2.3.1"
     "@vitejs/plugin-vue-jsx" "^1.3.9"
     autoprefixer "^10.4.4"
     chokidar "^3.5.3"
-    cssnano "^5.1.5"
+    cssnano "^5.1.6"
     defu "^6.0.0"
     esbuild "^0.14.29"
     escape-string-regexp "^5.0.0"
@@ -486,9 +486,9 @@
     postcss-url "^10.1.3"
     rollup "^2.70.1"
     rollup-plugin-visualizer "^5.6.0"
-    ufo "^0.8.1"
-    unplugin "^0.6.0"
-    vite "^2.9.0"
+    ufo "^0.8.3"
+    unplugin "^0.6.1"
+    vite "^2.9.1"
     vite-node "^0.8.1"
 
 "@rollup/plugin-alias@^3.1.9":
@@ -1341,7 +1341,7 @@ cross-spawn@^7.0.3:
     shebang-command "^2.0.0"
     which "^2.0.1"
 
-css-declaration-sorter@^6.0.3:
+css-declaration-sorter@^6.2.2:
   version "6.2.2"
   resolved "https://registry.yarnpkg.com/css-declaration-sorter/-/css-declaration-sorter-6.2.2.tgz#bfd2f6f50002d6a3ae779a87d3a0c5d5b10e0f02"
   integrity sha512-Ufadglr88ZLsrvS11gjeu/40Lw74D9Am/Jpr3LlYm5Q4ZP5KdlUhG+6u2EjyXeZcxmZ2h1ebCKngDjolpeLHpg==
@@ -1375,12 +1375,12 @@ cssesc@^3.0.0:
   resolved "https://registry.yarnpkg.com/cssesc/-/cssesc-3.0.0.tgz#37741919903b868565e1c09ea747445cd18983ee"
   integrity sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==
 
-cssnano-preset-default@^5.2.5:
-  version "5.2.5"
-  resolved "https://registry.yarnpkg.com/cssnano-preset-default/-/cssnano-preset-default-5.2.5.tgz#267ded811a3e1664d78707f5355fcd89feeb38ac"
-  integrity sha512-WopL7PzN7sos3X8B54/QGl+CZUh1f0qN4ds+y2d5EPwRSSc3jsitVw81O+Uyop0pXyOfPfZxnc+LmA8w/Ki/WQ==
+cssnano-preset-default@^5.2.6:
+  version "5.2.6"
+  resolved "https://registry.yarnpkg.com/cssnano-preset-default/-/cssnano-preset-default-5.2.6.tgz#3a2a17b7bccdbf27dbc6d4b9a8ae2c1f1720d50c"
+  integrity sha512-QwnYv/ZuNH0eWOxs3ME7w5uXXdWZKKXVGn1c6P877nPLl7SR8pAQQNe1CKbcPc+qpIbb2cq554Cv3QYG0MxTSQ==
   dependencies:
-    css-declaration-sorter "^6.0.3"
+    css-declaration-sorter "^6.2.2"
     cssnano-utils "^3.1.0"
     postcss-calc "^8.2.3"
     postcss-colormin "^5.3.0"
@@ -1415,12 +1415,12 @@ cssnano-utils@^3.1.0:
   resolved "https://registry.yarnpkg.com/cssnano-utils/-/cssnano-utils-3.1.0.tgz#95684d08c91511edfc70d2636338ca37ef3a6861"
   integrity sha512-JQNR19/YZhz4psLX/rQ9M83e3z2Wf/HdJbryzte4a3NSuafyp9w/I4U+hx5C2S9g41qlstH7DEWnZaaj83OuEA==
 
-cssnano@^5.1.5:
-  version "5.1.5"
-  resolved "https://registry.yarnpkg.com/cssnano/-/cssnano-5.1.5.tgz#5f3f519538c7f1c182c527096892243db3e17397"
-  integrity sha512-VZO1e+bRRVixMeia1zKagrv0lLN1B/r/u12STGNNUFxnp97LIFgZHQa0JxqlwEkvzUyA9Oz/WnCTAFkdEbONmg==
+cssnano@^5.1.6:
+  version "5.1.6"
+  resolved "https://registry.yarnpkg.com/cssnano/-/cssnano-5.1.6.tgz#8133722e93049ac5c284bbe5c32cbf7fc829ceca"
+  integrity sha512-A7oX6Vxgpc/VzyKDTLEFpv6M0n06foVSWPAb+Xg0k6ikgSaI04SnGUKOQeBdvrXZCqhp3xdlii0cp+bUCgbCRQ==
   dependencies:
-    cssnano-preset-default "^5.2.5"
+    cssnano-preset-default "^5.2.6"
     lilconfig "^2.0.3"
     yaml "^1.10.2"
 
@@ -3023,9 +3023,9 @@ node-forge@^1:
   integrity sha512-dPEtOeMvF9VMcYV/1Wb8CPoVAXtp6MKMlcbAt4ddqmGqUJ6fQZFXkNZNkNlfevtNkGtaSoXf/vNNNSvgrdXwtA==
 
 node-gyp-build@^4.2.2:
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/node-gyp-build/-/node-gyp-build-4.3.0.tgz#9f256b03e5826150be39c764bf51e993946d71a3"
-  integrity sha512-iWjXZvmboq0ja1pUGULQBexmxq8CV4xBhX7VDOTbL7ZR4FOowwY/VOtRxBN/yKxmdGoIp4j5ysNT4u3S2pDQ3Q==
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/node-gyp-build/-/node-gyp-build-4.4.0.tgz#42e99687ce87ddeaf3a10b99dc06abc11021f3f4"
+  integrity sha512-amJnQCcgtRVw9SvoebO3BKGESClrfXGCUTX9hSn1OuGQTQBOZmVd0Z0OlecpuRksKvbsUqALE8jls/ErClAPuQ==
 
 node-pre-gyp@^0.13.0:
   version "0.13.0"
@@ -3138,23 +3138,23 @@ number-is-nan@^1.0.0:
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
 
-"nuxi@npm:nuxi-edge@3.0.0-27479058.e4956c5":
-  version "3.0.0-27479058.e4956c5"
-  resolved "https://registry.yarnpkg.com/nuxi-edge/-/nuxi-edge-3.0.0-27479058.e4956c5.tgz#ed682fda6958784793252ae2fa27bd005d2fd5f5"
-  integrity sha512-pLO4Tbdz2vCwqBXd37XsUwi3mGk8WvMjK6vzc2+9bTXGl8nZEFptyNDOYgdf17zJNpOk5Npz+O1CrW2Ib4n1Lg==
+"nuxi@npm:nuxi-edge@3.0.0-27480376.fdd38f9":
+  version "3.0.0-27480376.fdd38f9"
+  resolved "https://registry.yarnpkg.com/nuxi-edge/-/nuxi-edge-3.0.0-27480376.fdd38f9.tgz#3e7dbcc2862769794b7bb2c07abdf349d9c31dff"
+  integrity sha512-vV4zRTZTy4XpLt5C8J7MJIN1atJz9bC0AL3FDcHNykGzLdfX3YiZWnVPmv/zs8IlrA6iADlbs0eFgmTJ6WSTGQ==
   optionalDependencies:
     fsevents "~2.3.2"
 
 nuxt3@latest:
-  version "3.0.0-27479058.e4956c5"
-  resolved "https://registry.yarnpkg.com/nuxt3/-/nuxt3-3.0.0-27479058.e4956c5.tgz#7033fe4b4308bcb9d0659038a810458461670732"
-  integrity sha512-NbGeArBfW5hry1ZfXf3SNlywM/5UOm/OmUULWf7KDIFw8AsKolDz7luGv1nrFtMr4B9NM8Gfft7Uhex0YQ/U2g==
+  version "3.0.0-27480376.fdd38f9"
+  resolved "https://registry.yarnpkg.com/nuxt3/-/nuxt3-3.0.0-27480376.fdd38f9.tgz#c1c825b5c04b4dd0406b86d0c8d7e20c64f3a2c8"
+  integrity sha512-vrFfoVBT9iAagcLZ1Kk64IDZ/ojx9a2TkKoXhL2m721jxx3Qgum5HRQgXTgHWIWqVvxGTkRwmWbesN/QJkhhPA==
   dependencies:
-    "@nuxt/kit" "npm:@nuxt/kit-edge@3.0.0-27479058.e4956c5"
-    "@nuxt/nitro" "npm:@nuxt/nitro-edge@3.0.0-27479058.e4956c5"
-    "@nuxt/schema" "npm:@nuxt/schema-edge@3.0.0-27479058.e4956c5"
+    "@nuxt/kit" "npm:@nuxt/kit-edge@3.0.0-27480376.fdd38f9"
+    "@nuxt/nitro" "npm:@nuxt/nitro-edge@3.0.0-27480376.fdd38f9"
+    "@nuxt/schema" "npm:@nuxt/schema-edge@3.0.0-27480376.fdd38f9"
     "@nuxt/ui-templates" "npm:@nuxt/ui-templates-edge@latest"
-    "@nuxt/vite-builder" "npm:@nuxt/vite-builder-edge@3.0.0-27479058.e4956c5"
+    "@nuxt/vite-builder" "npm:@nuxt/vite-builder-edge@3.0.0-27480376.fdd38f9"
     "@vue/reactivity" "^3.2.31"
     "@vue/shared" "^3.2.31"
     "@vueuse/head" "^0.7.5"
@@ -3172,16 +3172,17 @@ nuxt3@latest:
     magic-string "^0.26.1"
     mlly "^0.5.1"
     nitropack "npm:nitropack-edge@latest"
-    nuxi "npm:nuxi-edge@3.0.0-27479058.e4956c5"
+    nuxi "npm:nuxi-edge@3.0.0-27480376.fdd38f9"
     ohash "^0.1.0"
     ohmyfetch "^0.4.15"
     pathe "^0.2.0"
     perfect-debounce "^0.1.3"
     scule "^0.2.1"
-    ufo "^0.8.1"
+    ufo "^0.8.3"
+    unctx "^1.1.4"
     unimport "^0.1.3"
-    unplugin "^0.6.0"
-    untyped "^0.4.3"
+    unplugin "^0.6.1"
+    untyped "^0.4.4"
     vue "^3.2.31"
     vue-router "^4.0.14"
 
@@ -4286,7 +4287,7 @@ ufo@^0.7.11, ufo@^0.7.9:
   resolved "https://registry.yarnpkg.com/ufo/-/ufo-0.7.11.tgz#17defad497981290383c5d26357773431fdbadcb"
   integrity sha512-IT3q0lPvtkqQ8toHQN/BkOi4VIqoqheqM1FnkNWT9y0G8B3xJhwnoKBu5OHx8zHDOvveQzfKuFowJ0VSARiIDg==
 
-ufo@^0.8.1:
+ufo@^0.8.3:
   version "0.8.3"
   resolved "https://registry.yarnpkg.com/ufo/-/ufo-0.8.3.tgz#3a2430f94afc13ba556f6dad498a2a6520dcb5d3"
   integrity sha512-AIkk06G21y/P+NCatfU+1qldCmI0XCszZLn8AkuKotffF3eqCvlce0KuwM7ZemLE/my0GSYADOAeM5zDYWMB+A==
@@ -4301,7 +4302,7 @@ unbox-primitive@^1.0.1:
     has-symbols "^1.0.2"
     which-boxed-primitive "^1.0.2"
 
-unctx@^1.1.3:
+unctx@^1.1.4:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/unctx/-/unctx-1.1.4.tgz#18d5c0a81d9ce0a790e89b81715f286ac0fa29bb"
   integrity sha512-fQMML+GjUpIjQa0HBrrJezo2dFpTAbQbU0/KFKw4T5wpc9deGjLHSYthdfNAo2xSWM34csI6arzedezQkqtfGw==
@@ -4363,7 +4364,7 @@ unplugin@^0.3.3:
   dependencies:
     webpack-virtual-modules "^0.4.3"
 
-unplugin@^0.6.0, unplugin@^0.6.1:
+unplugin@^0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/unplugin/-/unplugin-0.6.1.tgz#86da55d7a0d67629734dbe5e25efa9951422e64e"
   integrity sha512-cQqRCgQ2v/Q4fPIWNVZ6sNIDdl5v8JXOnlsUOsGzT4fblTONoPWaytiYSpu5qJ9lvSDZYAQN6BRVo3XQoZMfUQ==
@@ -4388,7 +4389,7 @@ unstorage@^0.3.3:
     ufo "^0.7.9"
     ws "^8.2.1"
 
-untyped@^0.4.3:
+untyped@^0.4.4:
   version "0.4.4"
   resolved "https://registry.yarnpkg.com/untyped/-/untyped-0.4.4.tgz#a3043588892266c9176e7049799a65aaa9e4db4b"
   integrity sha512-sY6u8RedwfLfBis0copfU/fzROieyAndqPs8Kn2PfyzTjtA88vCk81J1b5z+8/VJc+cwfGy23/AqOCpvAbkNVw==
@@ -4443,7 +4444,7 @@ vite-node@^0.8.1:
     pathe "^0.2.0"
     vite "^2.8.6"
 
-vite@^2.8.6, vite@^2.9.0:
+vite@^2.8.6, vite@^2.9.1:
   version "2.9.1"
   resolved "https://registry.yarnpkg.com/vite/-/vite-2.9.1.tgz#84bce95fae210a7beb566a0af06246748066b48f"
   integrity sha512-vSlsSdOYGcYEJfkQ/NeLXgnRv5zZfpAsdztkIrs7AZHV8RCMZQkwjo4DS5BnrYTqoWqLoUe1Cah4aVO4oNNqCQ==

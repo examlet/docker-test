@@ -12,16 +12,16 @@ services:
     networks:
       - localhost
 
-  # frontend:
-  #   build: ./services/frontend
-  #   environment:
-  #     NODE_ENV: production
-  #   volumes:
-  #     - './services/frontend:/app'
-  #   ports:
-  #     - 3000:3000
-  #   networks:
-  #     - localhost
+  frontend:
+    build: ./services/frontend
+    environment:
+      NODE_ENV: production
+    volumes:
+      - './services/frontend:/app'
+    ports:
+      - 3000:3000
+    networks:
+      - localhost
 
   nginx:
     image: nginx:latest
@@ -30,7 +30,7 @@ services:
     volumes:
       - ./services/nginx/default.conf:/etc/nginx/conf.d/default.conf
     depends_on:
-      # - frontend
+      - frontend
       - backend
     networks:
       - localhost
