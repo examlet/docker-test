@@ -14,6 +14,8 @@ services:
 
   frontend:
     build: ./services/frontend
+    environment:
+      NODE_ENV: production
     volumes:
       - './services/frontend:/app'
     ports:

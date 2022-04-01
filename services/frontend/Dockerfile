@@ -1,19 +1,10 @@
-FROM node:16-alpine as nuxtBuild
-
-WORKDIR /nuxtBuild
-
-COPY ./ /nuxtBuild
-
-RUN yarn install && yarn run build
-
-###
-
 FROM node:16-alpine
 
 WORKDIR /app
 
-COPY ./package.json /app/package.json
-COPY --from=nuxtBuild /nuxtBuild/.output /app/.output
+COPY ./ .
+
+RUN yarn install && yarn run build
 
 RUN ( \
     echo '#!/bin/sh'; \
@@ -21,6 +12,5 @@ RUN ( \
     ) > /usr/local/bin/nuxt-entrypoint && chmod +x /usr/local/bin/nuxt-entrypoint
 
 ENV HOST=0.0.0.0
-ENV PORT=3000
 
 ENTRYPOINT ["nuxt-entrypoint"]

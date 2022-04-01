@@ -1,6 +1,5 @@
 .gitignore
 README.md
-
 .nuxt
 .output
 node_modules
