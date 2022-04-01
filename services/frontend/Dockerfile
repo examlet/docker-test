@@ -18,4 +18,4 @@ COPY --from=nuxtBuild /nuxtBuild/.output /app/.output
 ENV HOST=0.0.0.0
 ENV PORT=3000
 
-ENTRYPOINT ["node", ".output/server/index.mjs"]
+ENTRYPOINT ["node", "/app/.output/server/index.mjs"]
